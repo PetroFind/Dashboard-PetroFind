@@ -69,7 +69,7 @@ return (
 				<IconsArea>
 					{NavButtons.map((item, index) => {
 				return(
-					<NavIcon index = {index} icon = {item.data.icon}/>
+					<NavIcon key={index} icon = {item.data.icon}/>
 				)
 						
 					})}

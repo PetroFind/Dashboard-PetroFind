@@ -1,12 +1,9 @@
 import React from 'react';
-import {Container, Paragraph} from './styles.js';
+import {Container} from './styles.js';
 
 const QuestionCard = (props) => {
   return (
     <Container width='260px'>
-     <Paragraph>
-       {props.text}
-     </Paragraph>
     </Container>
   )
 }
