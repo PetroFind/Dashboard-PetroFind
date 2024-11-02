@@ -1,20 +1,16 @@
 import React from 'react';
 
 import { Container, Box } from './styles';
-
-import Navbar from '../../components/navbar';
-import Footer from '../../components/footer';
-import ChatIA from '../../components/chatIA';
-
-
+import Layout from '../../components/layout'
 const Main = () => {
 
     return (
+        <Layout>
         <Container>
             <Box>
-              <ChatIA/>
             </Box>
         </Container>
+        </Layout>
     )
 }
 

@@ -1,18 +1,21 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
+:root{
+  
+}
+
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
- scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 p, a, h1 {
   color: ${({theme}) => theme.colors.text};
 }
 body {
-  font-family: 'Ubuntu', sans-serif;
   background: ${({theme}) => theme.colors.background};
 
 }
@@ -25,7 +28,7 @@ body {
    
 }
 ::-webkit-scrollbar-thumb {
-    background: ${({theme}) => theme.colors.primary};
+    background: ${({theme}) => theme.colors.secondary};
     border-radius: 6px;
 }
 `
