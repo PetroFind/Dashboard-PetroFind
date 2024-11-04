@@ -9,9 +9,3 @@ export const Container = styled.div`
    display: grid;
    place-items: center;
 `
-
-export const Paragraph = styled.p`
-  color: ${({theme}) => theme.colors.text};
-  font-size: 1.1em;
-  font-weight: semi-bold;
-`

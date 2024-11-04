@@ -13,7 +13,7 @@ const ChatIA = () => {
     
   return (
     <Layout>
-    <QuestionCard text={'Lorem Ipsum is simply dummy text       of the printing and typesetting industry?'}/>
+    <QuestionCard/>
     <Message message='Hello world!'/>
     <SearchBar iconSize='20px'/>
     </Layout>
