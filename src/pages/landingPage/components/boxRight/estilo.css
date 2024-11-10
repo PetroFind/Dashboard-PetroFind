@@ -1,0 +1,10 @@
+div{
+    background-size: contain;
+    filter: opacity(.5);
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+
+}
