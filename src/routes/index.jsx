@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import Error from "../pages/error";
 import ChatIA from "../pages/chatIA";
 import Main from '../pages/main';
+import Report from "../pages/report";
 
 
   export const Router = () => {
@@ -13,6 +14,7 @@ import Main from '../pages/main';
           <Route path="/404" element={<Error />}/>
           <Route path="/" element={<Main />}/>
           <Route path="/chat-ia" element={<ChatIA />}/>
+          <Route path="/report" element={<Report/>}/>
         </Routes>
       </BrowserRouter>
     )
