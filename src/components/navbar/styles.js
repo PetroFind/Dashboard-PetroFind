@@ -2,14 +2,16 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+  border-bottom: 1px solid ${({theme}) => theme.colors.graySecondary};
   background: ${({theme}) => theme.colors.background};
+  box-sizing: border-box;
   justify-content: end;
   align-items: center;
   flex-direction: row;
   display: flex;
-  height: 8vh;
+  padding: 12px;
   width: 100%;
-  gap: 20px;
+  gap: 24px;
   
 & > svg {
       color: ${({theme}) => theme.colors.secondaryBackground};
@@ -23,6 +25,5 @@ export const IconsArea = styled.div`
  align-items: center;
  display: flex;
  height: 100%;
- widht: 100%;
  gap: 20px;
 `

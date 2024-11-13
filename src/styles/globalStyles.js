@@ -6,15 +6,18 @@ const GlobalStyle = createGlobalStyle`
 }
 
 * {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-size: 16px;
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  scroll-behavior: smooth;
 }
+
 p, a, h1 {
   color: ${({theme}) => theme.colors.text};
 }
+
 body {
   background: ${({theme}) => theme.colors.background};
 

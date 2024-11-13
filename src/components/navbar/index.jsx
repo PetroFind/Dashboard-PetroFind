@@ -69,15 +69,15 @@ return (
 				<IconsArea>
 					{NavButtons.map((item, index) => {
 				return(
-					<NavIcon index = {index} icon = {item.data.icon}/>
+					<NavIcon key={index} icon={item.data.icon}/>
 				)
 						
 					})}
 				 
 					</IconsArea>
 					<div>
-						<Text text='Usuário' color={({ theme }) => theme.colors.text} fontWeight='bold'/>
-						<Text text='Cargo' color={({ theme }) => theme.colors.secondaryBackground} fontSize='12px'/>
+						<Text text='Usuário' fontWeight='bold'/>
+						<Text text='Cargo' fontSize='12px'/>
 					</div>
 				 <MdOutlineSettings />
 
